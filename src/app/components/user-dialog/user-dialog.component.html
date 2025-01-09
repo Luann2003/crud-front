@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>Inserir ou editar um usuário</h2>
+
+<div mat-dialog-content class="container">
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Nome</label>
+      <input id="name" formControlName="name" />
+    </div>
+    <div>
+      <label for="cpf">CPF</label>
+      <input id="cpf" formControlName="cpf" />
+    </div>
+    <div>
+      <label for="income">Renda</label>
+      <input id="income" formControlName="income" type="number" />
+    </div>
+    <div>
+      <label for="birthDate">Data de Nascimento</label>
+      <input id="birthDate" formControlName="birthDate" type="date" />
+    </div>
+    <div>
+      <label for="children">Número de Filhos</label>
+      <input id="children" formControlName="children" type="number" />
+    </div>
+    <button type="submit" [disabled]="!userForm.valid">Salvar</button>
+  </form>
+</div>
+
+

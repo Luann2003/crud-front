@@ -1,0 +1,128 @@
+/* Estilos gerais para o container */
+.user-list-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .user-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tabela */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Cabeçalho da tabela */
+  .user-table thead tr {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .user-table thead th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Corpo da tabela */
+  .user-table tbody tr {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Botões */
+  .user-table button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-table button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-table button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .user-table button:nth-child(2):hover {
+    background-color: #a71d2a;
+  }
+
+#edit{
+    background-color: green;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+#edit:hover{
+    background-color: rgb(1, 80, 1);
+    margin: 10px;
+    transition: 0.4s;
+
+}
+
+#delete{
+    background-color: red;
+    transition: 0.4s;
+
+}
+
+#delete:hover{
+    background-color: rgb(139, 1, 1);
+    transition: 0.4s;
+
+}
+
+#addPoup{
+    background-color: #0056b3;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s;
+}
+
+#addPoup:hover{
+    background-color: #024183;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s;
+}
+  
